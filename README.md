@@ -1,7 +1,5 @@
 # Vanzans Elden Ring Interactive Guide
 
-![Elden Ring](https://i.imgur.com/JGEpAoG.jpg)
-
 ## Overview
 
 The Vanzans Elden Ring Interactive Guide is a comprehensive, interactive web application designed to help players navigate the complex world of Elden Ring. This guide focuses on a Greatsword Vagabond build using the Flamberge with Flaming Strike, but the progression tracking is useful for any build.
