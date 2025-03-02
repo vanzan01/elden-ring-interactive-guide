@@ -1,8 +1,8 @@
-# Vanzans Elden Ring Interactive Guide
+# Elden Ring Interactive Guide
 
 ## Overview
 
-The Vanzans Elden Ring Interactive Guide is a comprehensive, interactive web application designed to help players navigate the complex world of Elden Ring. This guide focuses on a Greatsword Vagabond build using the Flamberge with Flaming Strike, but the progression tracking is useful for any build.
+The Elden Ring Interactive Guide is a comprehensive, interactive web application designed to help players navigate the complex world of Elden Ring. This guide focuses on a Greatsword Vagabond build using the Flamberge with Flaming Strike, but the progression tracking is useful for any build.
 
 ## Features
 
@@ -37,8 +37,8 @@ The Vanzans Elden Ring Interactive Guide is a comprehensive, interactive web app
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/vanzans-elden-ring-interactive-guide.git
-cd vanzans-elden-ring-interactive-guide
+git clone https://github.com/vanzan01/elden-ring-interactive-guide.git
+cd elden-ring-interactive-guide
 ```
 
 2. Install dependencies:
@@ -47,7 +47,6 @@ npm install
 # or
 yarn install
 ```
-
 3. Start the development server:
 ```bash
 npm run dev
