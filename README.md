@@ -4,6 +4,11 @@
 
 The Elden Ring Interactive Guide is a comprehensive, interactive web application designed to help players navigate the complex world of Elden Ring. This guide focuses on a Greatsword Vagabond build using the Flamberge with Flaming Strike, but the progression tracking is useful for any build.
 
+## Live Demo
+
+Check out the live version of the Elden Ring Interactive Guide:
+[https://elden-ring-msq.netlify.app/](https://elden-ring-msq.netlify.app/)
+
 ## Features
 
 ### Main Quest Progression Tracking
@@ -34,6 +39,8 @@ The Elden Ring Interactive Guide is a comprehensive, interactive web application
 - **Bidirectional Completion**: Completing all detailed steps marks the main quest complete, and vice versa.
 
 ## Installation
+
+You can use the [live demo](https://elden-ring-msq.netlify.app/) to access the application immediately without installation, or follow these steps to run it locally:
 
 1. Clone the repository:
 ```bash
