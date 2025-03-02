@@ -845,7 +845,7 @@ const InteractiveEldenRingGuide = () => {
             onClick={() => toggleQuestline('goldmask')}
             className={`mt-2 px-4 py-2 ${isQuestlineActive('goldmask') ? 'bg-yellow-800' : 'bg-yellow-600'} text-white rounded hover:bg-yellow-700`}
           >
-            {isQuestlineActive('goldmask') ? 'Goldmask\'s Questline (Active)' : 'Start Goldmask\'s Questline'}
+            {isQuestlineActive('goldmask') ? 'Goldmask&apos;s Questline (Active)' : 'Start Goldmask&apos;s Questline'}
           </button>
         </div>
       );
@@ -855,12 +855,12 @@ const InteractiveEldenRingGuide = () => {
       return (
         <div className="bg-red-50 p-3 my-4 rounded-md border border-red-200">
           <h3 className="font-bold text-red-700">Decision Point</h3>
-          <p className="text-red-700">Now that you've reached Leyndell, you can start the Dung Eater's questline for the Blessing of Despair ending.</p>
+          <p className="text-red-700">Now that you&apos;ve reached Leyndell, you can start the Dung Eater&apos;s questline for the Blessing of Despair ending.</p>
           <button 
             onClick={() => toggleQuestline('dung_eater')}
             className={`mt-2 px-4 py-2 ${isQuestlineActive('dung_eater') ? 'bg-red-800' : 'bg-red-600'} text-white rounded hover:bg-red-700`}
           >
-            {isQuestlineActive('dung_eater') ? 'Dung Eater\'s Questline (Active)' : 'Start Dung Eater\'s Questline'}
+            {isQuestlineActive('dung_eater') ? 'Dung Eater&apos;s Questline (Active)' : 'Start Dung Eater&apos;s Questline'}
           </button>
         </div>
       );
@@ -870,7 +870,7 @@ const InteractiveEldenRingGuide = () => {
       return (
         <div className="bg-orange-50 p-3 my-4 rounded-md border border-orange-200">
           <h3 className="font-bold text-orange-700">Important Decision Point</h3>
-          <p className="text-orange-700 font-bold mt-1">Warning: This will lock you into this ending unless you complete Millicent's questline and use Miquella's Needle.</p>
+          <p className="text-orange-700 font-bold mt-1">Warning: This will lock you into this ending unless you complete Millicent&apos;s questline and use Miquella&apos;s Needle.</p>
           <button 
             onClick={() => toggleQuestline('frenzied')}
             className={`mt-2 px-4 py-2 ${isQuestlineActive('frenzied') ? 'bg-orange-800' : 'bg-orange-600'} text-white rounded hover:bg-orange-700`}
@@ -885,7 +885,7 @@ const InteractiveEldenRingGuide = () => {
       return (
         <div className="bg-green-50 p-3 my-4 rounded-md border border-green-200">
           <h3 className="font-bold text-green-700">Game Complete!</h3>
-          <p className="text-green-700">You've defeated the final boss. Choose your ending:</p>
+          <p className="text-green-700">You&apos;ve defeated the final boss. Choose your ending:</p>
           <div className="flex flex-wrap gap-2 mt-2">
             <button 
               onClick={() => setShowEndingInfo(true)}
@@ -928,45 +928,45 @@ const InteractiveEldenRingGuide = () => {
         <div className="mb-3 pb-3 border-b border-purple-200">
           <div className="flex items-center">
             <div className={`w-3 h-3 rounded-full mr-2 ${ranniAvailable ? "bg-green-500" : "bg-red-500"}`}></div>
-            <h4 className="font-semibold">Age of Stars (Ranni's Ending)</h4>
+            <h4 className="font-semibold">Age of Stars (Ranni&apos;s Ending)</h4>
           </div>
           <p className="text-sm ml-5 mt-1">{ranniAvailable ? 
-            "Available: Look for Ranni's blue summon sign after defeating the final boss." : 
-            isQuestlineActive('ranni') ? "Continue Ranni's questline to unlock this ending." : 
-            "You need to complete Ranni's questline to unlock this ending."}</p>
+            "Available: Look for Ranni&apos;s blue summon sign after defeating the final boss." : 
+            isQuestlineActive('ranni') ? "Continue Ranni&apos;s questline to unlock this ending." : 
+            "You need to complete Ranni&apos;s questline to unlock this ending."}</p>
         </div>
         
         <div className="mb-3 pb-3 border-b border-purple-200">
           <div className="flex items-center">
             <div className={`w-3 h-3 rounded-full mr-2 ${fiaAvailable ? "bg-green-500" : "bg-red-500"}`}></div>
-            <h4 className="font-semibold">Age of Duskborn (Fia's Ending)</h4>
+            <h4 className="font-semibold">Age of Duskborn (Fia&apos;s Ending)</h4>
           </div>
           <p className="text-sm ml-5 mt-1">{fiaAvailable ? 
             "Available: Use the Mending Rune of the Death-Prince after defeating the final boss." : 
-            isQuestlineActive('fia') ? "Continue Fia's questline to unlock this ending." : 
-            "You need to complete Fia's questline to unlock this ending."}</p>
+            isQuestlineActive('fia') ? "Continue Fia&apos;s questline to unlock this ending." : 
+            "You need to complete Fia&apos;s questline to unlock this ending."}</p>
         </div>
         
         <div className="mb-3 pb-3 border-b border-purple-200">
           <div className="flex items-center">
             <div className={`w-3 h-3 rounded-full mr-2 ${dungEaterAvailable ? "bg-green-500" : "bg-red-500"}`}></div>
-            <h4 className="font-semibold">Blessing of Despair (Dung Eater's Ending)</h4>
+            <h4 className="font-semibold">Blessing of Despair (Dung Eater&apos;s Ending)</h4>
           </div>
           <p className="text-sm ml-5 mt-1">{dungEaterAvailable ? 
             "Available: Use the Mending Rune of the Fell Curse after defeating the final boss." : 
-            isQuestlineActive('dung_eater') ? "Continue Dung Eater's questline to unlock this ending." : 
-            "You need to complete Dung Eater's questline to unlock this ending."}</p>
+            isQuestlineActive('dung_eater') ? "Continue Dung Eater&apos;s questline to unlock this ending." : 
+            "You need to complete Dung Eater&apos;s questline to unlock this ending."}</p>
         </div>
         
         <div className="mb-3 pb-3 border-b border-purple-200">
           <div className="flex items-center">
             <div className={`w-3 h-3 rounded-full mr-2 ${goldmaskAvailable ? "bg-green-500" : "bg-red-500"}`}></div>
-            <h4 className="font-semibold">Age of Order (Goldmask's Ending)</h4>
+            <h4 className="font-semibold">Age of Order (Goldmask&apos;s Ending)</h4>
           </div>
           <p className="text-sm ml-5 mt-1">{goldmaskAvailable ? 
             "Available: Use the Mending Rune of Perfect Order after defeating the final boss." : 
-            isQuestlineActive('goldmask') ? "Continue Goldmask's questline to unlock this ending." : 
-            "You need to complete Goldmask's questline to unlock this ending."}</p>
+            isQuestlineActive('goldmask') ? "Continue Goldmask&apos;s questline to unlock this ending." : 
+            "You need to complete Goldmask&apos;s questline to unlock this ending."}</p>
         </div>
         
         <div className="mb-3">
@@ -977,7 +977,7 @@ const InteractiveEldenRingGuide = () => {
           <p className="text-sm ml-5 mt-1">{frenziedAvailable ? 
             "Available: Will trigger automatically after defeating the final boss." : 
             completedSteps['mainQuests_erdtree_burning'] ? 
-            "You can no longer unlock this ending in this playthrough as you've already burned the Erdtree." : 
+            "You can no longer unlock this ending in this playthrough as you&apos;ve already burned the Erdtree." : 
             "You need to find the Three Fingers before burning the Erdtree to unlock this ending."}</p>
         </div>
         
